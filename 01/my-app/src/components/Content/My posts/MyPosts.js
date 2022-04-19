@@ -1,6 +1,5 @@
 import classes from './MyPosts.module.css';
 
-
 function MyPosts(props) {
     return (
         <div className={classes.MyPosts}>
@@ -11,6 +10,5 @@ function MyPosts(props) {
         </div>
     );
 }
-
 
 export default MyPosts;

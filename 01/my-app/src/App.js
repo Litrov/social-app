@@ -2,7 +2,6 @@ import './App.css';
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
-// import MyPosts from "./components/Content/My posts/MyPosts";
 import Dialogs from "./components/Dialogs/Dialogs";
 import {BrowserRouter, Route} from "react-router-dom";
 import MyPosts from "./components/Content/My posts/MyPosts";
