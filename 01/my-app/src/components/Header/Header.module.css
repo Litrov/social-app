@@ -1,0 +1,9 @@
+.App_header {
+    grid-area: h;
+    background-color: tan;
+}
+.logo {
+    height: 120px;
+}
+
+

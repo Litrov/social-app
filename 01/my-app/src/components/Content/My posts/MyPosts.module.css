@@ -1,0 +1,9 @@
+.MyPosts {
+    display: grid;
+    grid-row-end: 4;
+    grid-column-end: 3;
+
+}
+
+
+

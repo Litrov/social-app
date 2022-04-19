@@ -1,0 +1,12 @@
+.content {
+    grid-area: content;
+    background-color: bisque;
+}
+
+.content img {
+    /*margin: 0 300px;*/
+    height: 320px;
+    /*grid-auto-columns: auto;*/
+}
+
+
