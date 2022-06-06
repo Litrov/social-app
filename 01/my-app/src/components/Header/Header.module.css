@@ -3,7 +3,12 @@
     background-color: tan;
 }
 .logo {
-    height: 120px;
+    height: 100px;
 }
 
-
+.loginBlock {
+    float: right;
+}
+.loginBlock a {
+    color: white;
+}

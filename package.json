@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "react-router-dom": "^4.3.1"
+    "final-form": "^4.20.7",
+    "formik": "^2.2.9",
+    "react-final-form": "^6.5.9",
+    "react-router-dom": "^4.3.1",
+    "redux-form": "^8.3.8",
+    "yup": "^0.32.11"
   }
 }

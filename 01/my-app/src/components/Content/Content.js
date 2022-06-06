@@ -1,27 +1,17 @@
 import classes from './Content.module.css';
 import React from "react";
-import MyPosts from "./My posts/MyPosts";
+import ProfileInfo from "./My posts/ProfileInfo/ProfileInfo";
+import MyPostsContainer from "./My posts/MyPostsContainer";
 
-function Content() {
-    let newPostElement = React.createRef();
-    let addPost = () => {
-        let text = newPostElement.current.value;
-        alert(text);
-    }
+const Content = (props) => {
+
     return (
         <div className={classes.content}>
-            <img src='https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg'/>
-            <h2>My Post</h2>
-            <MyPosts/>
-            <div>
-                <textarea ref={newPostElement}></textarea>
-            </div>
-            <div>
-                <button onClick={addPost}>Add post</button>
-            </div>
+            <ProfileInfo savePhoto={props.savePhoto} isOwner={props.isOwner} profile={props.profile}
+                         status={props.status} updateStatus={props.updateStatus}/>
+            <MyPostsContainer/>
         </div>
     );
 }
-
 
 export default Content;
